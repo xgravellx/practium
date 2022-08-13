@@ -5,7 +5,7 @@ import Board from './components/Board';
 function App() {
   return (
     <div className="App">
-      <h1 className='header'>Tic Tac Toe</h1>
+      <h1 className='header'>Fimple React Practicum</h1>
       <Board/>
     </div>
   );

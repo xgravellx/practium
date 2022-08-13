@@ -9,7 +9,7 @@ function Board() {
     const winner = calculateWinner(square);
     let status;
     if (winner) {
-        status = 'Winner: ' + winner;
+        status = 'Kazanan: ' + winner;
     } else {
         status = 'Oyuncu: ' + (X ? 'X' : 'O');
     }
@@ -27,7 +27,7 @@ function Board() {
             setSquare(squares);
             setX(!X);
         } else {
-            alert("Can't do that")
+            alert("Baştan oynamaya ne dersin!")
         }
 
     }
@@ -49,6 +49,8 @@ function Board() {
             if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c]) {
                 return squares[a];
             }
+            
+            
         }
 
         return null;

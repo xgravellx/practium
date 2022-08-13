@@ -6,12 +6,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #323232;
+  color: #fff;
+  text-align: center;
 
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Inter';
 }
 
 h1 {
@@ -36,12 +37,12 @@ h1 {
   width: 15vh;
   height: 15vh;
   color: black;
-  background-color: cyan;
+  background-color: #e30713;
   font-size: 2rem;
   border-radius: 10px;
 }
 
 .btn:hover {
-  background-color: blueviolet;
+  background-color: #145cc6;
 }
 
